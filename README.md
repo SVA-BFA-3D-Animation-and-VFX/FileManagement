@@ -8,7 +8,7 @@ This batch script automates the creation of a standardized folder hierarchy for 
 UCAFolderMac.sh: Creates the folder structure on macOS in "~/Documents/ProjectFolder".
 UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Documents\ProjectFolder" (e.g., C:\Users\YourUsername\Documents\ProjectFolder).
 
-- **Folder Structure:**  
+- **Folder Structure**  
 - **Top-Level Folders:**  
   It generates four main folders:  
   - `asset`
