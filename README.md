@@ -54,7 +54,7 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
 3. **Run the Script:** <br />
    cd to the script folder and enter ./UCAFolderMac.sh (this is the script file name)
 
-**Change Root Directory**
+**Change Root Directory**  <br />
 Example for a network server:<br />
 Windows: Edit root in UCAFolder.bat, line 5 (e.g., set "root=\\ucaprod\thesis\ProjectFolder"). <br />
 macOS: Edit root in UCAFolderMac.sh line 4 (e.g., root="/Volumes/thesis/ProjectFolder").<br />
