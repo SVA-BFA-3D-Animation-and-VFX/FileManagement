@@ -1,4 +1,4 @@
-# Batch Script: Automated Project Folder Structure Creation
+# Automated Project Folder Structure Creation
 
 This batch script automates the creation of a standardized folder hierarchy for a project. It is designed to quickly set up directories needed for asset management, editorial work, I/O operations, and sequence organization within a specified root directory.
 
