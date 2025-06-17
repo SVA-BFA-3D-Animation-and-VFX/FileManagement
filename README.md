@@ -19,9 +19,9 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
 - **Subfolder:**  
   - **Asset:**  
       Organizes assets into `Assets`, with further subdivisions.
-    -  'Asset/publish': (lookdev, model, rig, texture),
-    -  'Asset/reference'
-    -  'Asset/work': (lookdev, model, rig, texture).
+    -  'publish': (lookdev, model, rig, texture),
+    -  'reference'
+    -  'work': (lookdev, model, rig, texture).
 
   - **Editorial Folder:**  
     - Creates a `VideoEditingFolder` for editorial tasks.
