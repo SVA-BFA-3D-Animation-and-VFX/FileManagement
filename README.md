@@ -57,9 +57,10 @@ UCAFolder.bat: Creates the same structure on Windows in "%USERPROFILE%\Documents
 
 Example for a network server:
 
+Windows: Edit root in UCAFolder.bat, line 5 (e.g., set "root=\\ucaprod\thesis\ProjectFolder").
+
 macOS: Edit root in UCAFolderMac.sh line 4 (e.g., root="/Volumes/thesis/ProjectFolder").
 
-Windows: Edit root in UCAFolder.bat, line 5 (e.g., set "root=\\ucaprod\thesis\ProjectFolder").
 For network servers on macOS, mount the server first.
 
 
