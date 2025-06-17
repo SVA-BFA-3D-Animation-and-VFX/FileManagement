@@ -47,10 +47,10 @@ UCAFolder.bat: Creates the same structure on Windows in "%USERPROFILE%\Documents
    
 **macOS (UCAFolderMac.sh)**
 1. **Save the Script:**
-    Copy the script into a text editor and save it with a `.sh` extension (e.g., `create_folders.sh`).
-3. **Make the script executable**
+   Copy the script into a text editor and save it with a `.sh` extension (e.g., `create_folders.sh`).
+2. **Make the script executable**
    chmod +x UCAFolderMac.sh
-5. **Run the Script**
+3. **Run the Script**
    cd to the script folder and enter ./UCAFolderMac.sh (this is the script file name)
 
 **Change Root Directory**
