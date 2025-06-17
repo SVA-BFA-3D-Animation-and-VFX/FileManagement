@@ -46,16 +46,12 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
    The folders will be created automatically at the specified root location.
    
 **macOS (UCAFolderMac.sh)**
-1. **Save the Script:**
 
-   Copy the script into a text editor and save it with a `.sh` extension (e.g., `UCAFolderMac.sh`).
-   
-3. **Make the script executable**
-
+1. **Save the Script:**  
+   Copy the script into a text editor and save it with a `.bat` extension (e.g., `UCAFolderW.bat`).
+2. **Make the script executable**
    chmod +x UCAFolderMac.sh
-   
-5. **Run the Script**
-
+3. **Run the Script:**
    cd to the script folder and enter ./UCAFolderMac.sh (this is the script file name)
 
 **Change Root Directory**
