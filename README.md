@@ -6,7 +6,7 @@ This batch script automates the creation of a standardized folder hierarchy for 
 
 - **Sets a Root Directory:**  
 UCAFolderMac.sh: Creates the folder structure on macOS in "~/Documents/ProjectFolder".
-UCAFolder.bat: Creates the same structure on Windows in "%USERPROFILE%\Documents\ProjectFolder" (e.g., C:\Users\YourUsername\Documents\ProjectFolder).
+UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Documents\ProjectFolder" (e.g., C:\Users\YourUsername\Documents\ProjectFolder).
 
 - **Folder Structure:**  
 - **Top-Level Folders:**  
@@ -38,9 +38,9 @@ UCAFolder.bat: Creates the same structure on Windows in "%USERPROFILE%\Documents
   After creating all directories, the script displays a message indicating successful completion and the root location.
 
 ## How to Use
-**Windows (UCAFolder.bat)**
+**Windows (UCAFolderW.bat)**
 1. **Save the Script:**  
-   Copy the script into a text editor and save it with a `.bat` extension (e.g., `create_folders.bat`).
+   Copy the script into a text editor and save it with a `.bat` extension (e.g., `UCAFolderW.bat`).
 2. **Run the Script:**  
    Double-click the `.bat` file or execute it from the command prompt.  
    The folders will be created automatically at the specified root location.
@@ -48,7 +48,7 @@ UCAFolder.bat: Creates the same structure on Windows in "%USERPROFILE%\Documents
 **macOS (UCAFolderMac.sh)**
 1. **Save the Script:**
 
-   Copy the script into a text editor and save it with a `.sh` extension (e.g., `create_folders.sh`).
+   Copy the script into a text editor and save it with a `.sh` extension (e.g., `UCAFolderMac.sh`).
    
 3. **Make the script executable**
 
