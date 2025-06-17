@@ -5,35 +5,59 @@ This batch script automates the creation of a standardized folder hierarchy for 
 ## What the Script Does
 
 - **Sets a Root Directory:**  
-  The script defines a root folder location (`\\ucaprod\thesis\old\folderBox`) where all new folders will be created.
+UCAFolderMac.sh: Creates the folder structure on macOS in "~/Documents/ProjectFolder".
+UCAFolder.bat: Creates the same structure on Windows in "%USERPROFILE%\Documents\ProjectFolder" (e.g., C:\Users\YourUsername\Documents\ProjectFolder).
 
-- **Creates Top-Level Folders:**  
+- **Folder Structure:**  
+- **Top-Level Folders:**  
   It generates four main folders:  
   - `asset`
   - `editorial`
   - `io`
   - `reference`
 
-- **Builds Subfolder Structures:**  
-  - **Asset Folder:**  
-    - Organizes assets into `Assets`, with further subdivisions for `publish` (lookdev, model, rig, texture), `reference`, and `work` (lookdev, model, rig, texture).
+- **Subfolder:**  
+  - **Asset:**  
+      Organizes assets into `Assets`, with further subdivisions.
+    -  'Asset/publish': (lookdev, model, rig, texture),
+    -  'Asset/reference'
+    -  'Asset/work': (lookdev, model, rig, texture).
+
   - **Editorial Folder:**  
     - Creates a `VideoEditingFolder` for editorial tasks.
   - **I/O Folder:**  
     - Sets up `In` and `Out` folders, each with a placeholder for dated subfolders (`YYYY_MM_DD_inFolderName`).
   - **Sequence Folder:**  
-    - Establishes a `sequence` directory containing a sample sequence (`seq010_0000`) with subfolders for `Publish` (anim, comp, fx, lighting), `Reference`, `source` (audio, plates, anim, graded, lighting, raw), and `work` (anim, comp, fx, lighting).
+    Establishes a `sequence` directory containing a sample sequence (`seq010_0000`) with subfolders.
+    - `Publish` (anim, comp, fx, lighting),
+    - `Reference`,
+    - `source` (audio, plates, anim, graded, lighting, raw)
+    - `work` (anim, comp, fx, lighting).
 
 - **Completion Message:**  
   After creating all directories, the script displays a message indicating successful completion and the root location.
 
 ## How to Use
-
-1. **Edit the Root Path (Optional):**  
-   If you want to use a different root directory, change the `root` variable at the top of the script.
-2. **Save the Script:**  
+**Windows (UCAFolder.bat)**
+1. **Save the Script:**  
    Copy the script into a text editor and save it with a `.bat` extension (e.g., `create_folders.bat`).
-3. **Run the Script:**  
+2. **Run the Script:**  
    Double-click the `.bat` file or execute it from the command prompt.  
    The folders will be created automatically at the specified root location.
+   
+**macOS (UCAFolderMac.sh)**
+1. **Save the Script:**  
+   Copy the script into a text editor and save it with a `.sh` extension (e.g., `create_folders.sh`).
+2. **Make the script executable**
+   chmod +x UCAFolderMac.sh
+3. ** Run the Script**
+   cd to the script folder and enter ./UCAFolderMac.sh (this is the script file name)
+
+**Change Root Directory**
+Example for network server:
+macOS: Edit root in UCAFolderMac.sh line 4 (e.g., root="/Volumes/thesis/ProjectFolder").
+Windows: Edit root in UCAFolder.bat, line 5 (e.g., set "root=\\ucaprod\thesis\ProjectFolder").
+For network servers on macOS, mount the server first.
+
+
 
