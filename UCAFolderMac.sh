@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Set the root directory to the location you want the folder to be created
-root="/Volumes/thesis/old/folderBox"
+# Set the root directory to the location you want the folder to be created, eg, to local DOC use (root="$HOME/Documents") to UCAprod (/Volumes/thesis/old/folderBox)
+root="$HOME/Documents"
 
 # Check if root directory is writable
 if [ ! -w "$root" ]; then
