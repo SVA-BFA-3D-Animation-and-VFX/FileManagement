@@ -1,13 +1,16 @@
 #!/bin/bash
 
-# Set the root directory to the location you want the folder to be created, eg, to local DOC use (root="$HOME/Documents") to UCAprod (/Volumes/thesis/old/folderBox)
-root="$HOME/Documents"
+# Set the root directory to the location you want the folder to be created, eg, root set to local DOC use (root="$HOME/Documents/folderName") to UCAprod (/Volumes/thesis/folderName)
+root="$HOME/Documents/ProjectFolder"
 
-# Check if root directory is writable
-if [ ! -w "$root" ]; then
-    echo "Error: No write permission for $root or directory does not exist"
+# Check if the parent directory is writable
+if [ ! -w "$(dirname "$root")" ]; then
+    echo "Error: No write permission for $(dirname "$root")"
     exit 1
 fi
+
+# Create root directory if it doesn't exist
+mkdir -p "$root" || { echo "Failed to create $root"; exit 1; }
 
 # Create first layer folders
 mkdir -p "${root}/asset" || { echo "Failed to create ${root}/asset"; exit 1; }
