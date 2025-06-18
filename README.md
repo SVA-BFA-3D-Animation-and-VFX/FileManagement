@@ -48,7 +48,7 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
 **macOS (UCAFolderMac.sh)**
 
 1. **Save the Script:**  
-   Copy the script into a text editor and save it with a `.bat` extension (e.g., `UCAFolderW.bat`).
+   Copy the script into a text editor and save it with a `.sh` extension (e.g., `UCAFolderMac.sh`).
 2. **Make the script executable** <br />
    chmod +x UCAFolderMac.sh
 3. **Run the Script:** <br />
