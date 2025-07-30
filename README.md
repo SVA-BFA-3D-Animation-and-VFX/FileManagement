@@ -15,6 +15,7 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
   - `editorial`
   - `io`
   - `reference`
+  - `sequence`
 
 - **Subfolder:**  
   - **Asset:**  
