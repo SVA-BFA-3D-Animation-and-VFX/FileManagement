@@ -19,7 +19,7 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
 
 - **Subfolder:**  
   - **Asset:**  
-      Organizes assets into `Asample_assets` (template, duplicate for new assets), with further subdivisions.
+      Organizes assets into `sample_assets` (template, duplicate for new assets), with further subdivisions.
     -  `publish`: (lookdev, model, rig, texture),
     -  `work`: (lookdev, model, rig, texture),
     -  `reference`.
