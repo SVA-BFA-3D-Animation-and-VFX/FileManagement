@@ -79,7 +79,7 @@ mkdir "%root%\sequence\seq010_0000\work\lighting\maya"
 echo.
 echo The folders have been successfully created at:
 echo %root%
-echo Note: Duplicate 'sample_asset' for new assets (e.g., 'Gecko', 'Office') and 'shot_template' for new shots (e.g., 'seq020_0010').
+echo Note: Duplicate 'sample_asset' for new assets (e.g., 'Gecko', 'Office') and 'seq010_0000' for new shots (e.g., 'seq020_0010').
 echo.
 
 pause
