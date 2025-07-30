@@ -21,8 +21,8 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
   - **Asset:**  
       Organizes assets into `sample_assets` (template, duplicate for new assets), with further subdivisions.
     -  `publish`: (lookdev, model, rig, texture),
-    -  `work`: (lookdev, model, rig, texture),
     -  `reference`.
+    -  `work`: (lookdev, model, rig, texture),
 
   - **Editorial Folder:**  
     - premiere: Adobe Premiere projects,
