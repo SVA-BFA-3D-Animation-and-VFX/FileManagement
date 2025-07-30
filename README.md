@@ -24,10 +24,10 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
     -  `reference`.
     -  `work`: (lookdev, model, rig, texture),
 
-  - **Editorial Folder:**  
+  - **Editorial Folder:**
+    - exports: Work-in-progress exports.
     - premiere: Adobe Premiere projects,
     - hiero: Nuke Studio/Hiero projects,
-    - exports: Work-in-progress exports.
       
   - **I/O Folder:**  
     - Sets up `In` and `Out` folders, each with a placeholder for dated subfolders (`YYYY_MM_DD_in/out_FolderName`).
@@ -36,7 +36,7 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
     Establishes a `sequence` directory containing a sample sequence `seq010_0000` (template, duplicate for new shots) with subfolders.
     - `Publish` (anim, comp, fx, lighting),
     - `Reference`,
-    - `source` (audio, plates, anim, graded, lighting, raw)
+    - `source` (audio, plates)
     - `work` (anim, comp, fx, lighting).
 
 - **Completion Message:**  
