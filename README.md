@@ -10,7 +10,7 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
 
  **Folder Structure**  
 - **Top-Level Folders:**  
-  It generates four main folders:  
+  It generates five main folders:  
   - `asset`
   - `editorial`
   - `io`
