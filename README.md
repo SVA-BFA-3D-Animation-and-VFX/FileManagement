@@ -15,21 +15,24 @@ UCAFolderW.bat: Creates the same structure on Windows in "%USERPROFILE%\Document
   - `editorial`
   - `io`
   - `reference`
-  - `sequence`
 
 - **Subfolder:**  
   - **Asset:**  
-      Organizes assets into `Assets`, with further subdivisions.
+      Organizes assets into `Asample_assets` (template, duplicate for new assets), with further subdivisions.
     -  `publish`: (lookdev, model, rig, texture),
-    -  `reference`
-    -  `work`: (lookdev, model, rig, texture).
+    -  `work`: (lookdev, model, rig, texture),
+    -  `reference`.
 
   - **Editorial Folder:**  
-    - Creates a `VideoEditingFolder` for editorial tasks.
+    - premiere: Adobe Premiere projects,
+    - hiero: Nuke Studio/Hiero projects,
+    - exports: Work-in-progress exports.
+      
   - **I/O Folder:**  
-    - Sets up `In` and `Out` folders, each with a placeholder for dated subfolders (`YYYY_MM_DD_inFolderName`).
+    - Sets up `In` and `Out` folders, each with a placeholder for dated subfolders (`YYYY_MM_DD_in/out_FolderName`).
+      
   - **Sequence Folder:**  
-    Establishes a `sequence` directory containing a sample sequence (`seq010_0000`) with subfolders.
+    Establishes a `sequence` directory containing a sample sequence `seq010_0000` (template, duplicate for new shots) with subfolders.
     - `Publish` (anim, comp, fx, lighting),
     - `Reference`,
     - `source` (audio, plates, anim, graded, lighting, raw)
