@@ -2,6 +2,9 @@
 
 This batch script automates the creation of a standardized folder hierarchy for a project. It is designed to quickly set up directories needed for asset management, editorial work, I/O operations, and sequence organization within a specified root directory.
 
+# GUI Application: 
+FolderSetupGUI.app (macOS) and FolderSetupGUI.exe (Windows) allow users to create the full folder structure in ~/Documents/project_folder, add new assets (using SampleAsset as a template), and add new shots (using seq010/seq010_0010 with incremental naming, e.g., seq020_0010).
+
 ## What the Script Does
 
 - **Sets a Root Directory:**  
