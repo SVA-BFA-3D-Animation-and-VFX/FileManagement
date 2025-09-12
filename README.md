@@ -14,8 +14,9 @@ Beta executables may trigger Windows Defender or Chrome warnings.
 - Move to Applications and double-click to run. 
 - Allow in System Settings > Privacy & Security if prompted.
   
-**GUI.exe Windows**: Download FolderSetupGUI.exe from GitHub or Google Drive. Double-click to run. 
-Click “Run anyway” if prompted by Windows Defender. 
+**GUI.exe Windows**: Download FolderSetupGUI.exe
+Double-click to run. 
+If Windows Defender flags it when you try to open the .exe, an exception needs to be added: Settings > Update & Security > Windows Security > Virus & Threat Protection > Manage Settings > Add an exclusion (select FolderSetupGUI.exe).
 
 **Functionality** 
 - "Select Root Directory": Choose where to create the project folder. Works with USB drives, network servers, and local drives.
