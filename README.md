@@ -7,7 +7,7 @@ folder_setup_gui.app (macOS) and folder_setup_gui.exe (Windows) provide a user-f
 
 The GUI generates command-line scripts (add_asset.sh/add_asset.bat and add_shot.sh/add_shot.bat) for manual asset and shot creation. Drag it into the terminal or command line to run it.
 
-## How to use GUI.APP / GUI.exe
+## How to use the GUI.APP / GUI.exe
 Beta executables may trigger Windows Defender or Chrome warnings.
 
 **GUI.app macOS**: Download FolderSetupGUI.app 
