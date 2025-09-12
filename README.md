@@ -59,10 +59,15 @@ Beta executables may trigger Windows Defender or Chrome warnings.
     - documents, images, videos
       
   - **Sandbox:**  
-    -Organizes user-specific work in userName with subfolders:
-    publish: anim (alembic_camera, alembic_geometry), comp (composited_image), design (composited_image), fx (alembic_geometry),lighting (composited_image, rendered_image)
-    reference: documents, images, videos
-    work: anim (maya), comp (nuke),design (ae, photoshop), fx (houdini, maya),lighting (houdini, maya)
+    - Organizes user-specific work in userName with subfolders:
+     - publish:
+       - anim (alembic_camera, alembic_geometry),
+       - comp (composited_image),
+       - design (composited_image),
+       - fx (alembic_geometry),
+       - lighting (composited_image, rendered_image)
+    - reference: documents, images, videos
+    - work: anim (maya), comp (nuke),design (ae, photoshop), fx (houdini, maya),lighting (houdini, maya)
   
   - **Sequence Folder:**  
     Establishes a `sequence` directory containing a sample sequence `seq010/seq010_0010` (template, duplicate for new shots) with subfolders.
