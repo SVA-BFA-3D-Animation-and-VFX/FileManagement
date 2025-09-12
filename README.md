@@ -7,22 +7,22 @@ folder_setup_gui.app (macOS) and folder_setup_gui.exe (Windows) provide a user-f
 
 The GUI generates command-line scripts (add_asset.sh/add_asset.bat and add_shot.sh/add_shot.bat) for manual asset and shot creation. Drag it into the terminal or command line to run it.
 
-##How to use
+## How to use
 Beta executables may trigger Windows Defender or Chrome warnings.
 
 **GUI.app macOS**: Download FolderSetupGUI.app 
-Move to Applications and double-click to run. 
-Allow in System Settings > Privacy & Security if prompted. 
+- Move to Applications and double-click to run. 
+- Allow in System Settings > Privacy & Security if prompted. 
 **GUI.exe Windows**: Download FolderSetupGUI.exe from GitHub or Google Drive. Double-click to run. 
 Click “Run anyway” if prompted by Windows Defender. 
 
 **Functionality** 
-"Select Root Directory": Choose where to create the project folder. Works with USB drives, network servers, and local drives.
-"Create Folder Structure": Create the file structure in the selected root directory. If the root is set to //ucaprod/thesis, a project folder with a project code must be set up beforehand.
-“Add New Asset”: to create assets (e.g., desk) in the assets folder. 
-“Add New Shot”: to create shots (e.g., seq020_0010) in the sequence folder.
-Scripts: When the file structure is made, the add_asset.bat/add_asset.sh in assets/ and add_shot.bat/add_shot.sh in sequence/ will be created for manual asset or sequence folder creation.
-Status Label: Will displays the root directory and the location where the folder was created.
+- "Select Root Directory": Choose where to create the project folder. Works with USB drives, network servers, and local drives.
+- "Create Folder Structure": Create the file structure in the selected root directory. If the root is set to //ucaprod/thesis, a project folder with a project code must be set up beforehand.
+- “Add New Asset”: to create assets (e.g., desk) in the assets folder. 
+- “Add New Shot”: to create shots (e.g., seq020_0010) in the sequence folder.
+- Scripts: When the file structure is made, the add_asset.bat/add_asset.sh in assets/ and add_shot.bat/add_shot.sh in sequence/ will be created for manual asset or sequence folder creation.
+- Status Label: Will displays the root directory and the location where the folder was created.
 
  **Folder Structure**  
 - **Top-Level Folders:**  
