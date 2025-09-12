@@ -24,7 +24,7 @@ Click “Run anyway” if prompted by Windows Defender.
 - Scripts: When the file structure is made, the add_asset.bat/add_asset.sh in assets/ and add_shot.bat/add_shot.sh in sequence/ will be created for manual asset or sequence folder creation.
 - Status Label: Will displays the root directory and the location where the folder was created.
 
- **Folder Structure**  
+## Folder Structure
 - **Top-Level Folders:**  
   It generates five main folders:  
   - `asset`
