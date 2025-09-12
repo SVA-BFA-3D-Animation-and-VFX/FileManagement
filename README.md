@@ -12,7 +12,8 @@ Beta executables may trigger Windows Defender or Chrome warnings.
 
 **GUI.app macOS**: Download FolderSetupGUI.app 
 - Move to Applications and double-click to run. 
-- Allow in System Settings > Privacy & Security if prompted. 
+- Allow in System Settings > Privacy & Security if prompted.
+  
 **GUI.exe Windows**: Download FolderSetupGUI.exe from GitHub or Google Drive. Double-click to run. 
 Click “Run anyway” if prompted by Windows Defender. 
 
