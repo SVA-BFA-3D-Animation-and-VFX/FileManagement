@@ -2,7 +2,7 @@
 
 This tool automates the creation of a standardized folder hierarchy for 3D animation and VFX projects. It is designed to quickly set up directories needed for asset management, editorial work, I/O operations, and sequence organization within a specified root directory.
 
-Folder Structure Documentation made by Shayne Ryan [Link} (https://docs.google.com/document/d/1Xee4Wr14S8Rny-xosLolQS5RyLA3agvIuVNA5MqsC9g/edit?usp=sharing)
+Folder Structure Documentation made by Shayne Ryan [Link] (https://docs.google.com/document/d/1Xee4Wr14S8Rny-xosLolQS5RyLA3agvIuVNA5MqsC9g/edit?usp=sharing)
 
 # GUI Application: 
 folder_setup_gui.app (macOS) and folder_setup_gui.exe (Windows) provide a user-friendly interface to create the full folder structure in the selected **root directory**. It includes buttons to add assets (e.g., Gecko) and shots (e.g., seq020_0010) to the assets and sequence folders.
