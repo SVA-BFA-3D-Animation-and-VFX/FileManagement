@@ -4,6 +4,8 @@ This tool automates the creation of a standardized folder hierarchy for 3D anima
 
 Folder Structure Documentation made by Shayne Ryan [Link](https://docs.google.com/document/d/1Xee4Wr14S8Rny-xosLolQS5RyLA3agvIuVNA5MqsC9g/edit?usp=sharing)
 
+This project is still a work in progress. We’d love to hear your questions or suggestions as we keep refining and updating it.
+
 # GUI Application: 
 folder_setup_gui.app (macOS) and folder_setup_gui.exe (Windows) provide a user-friendly interface to create the full folder structure in the selected **root directory**. It includes buttons to add assets (e.g., Gecko) and shots (e.g., seq020_0010) to the assets and sequence folders.
 
